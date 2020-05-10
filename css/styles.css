@@ -1,0 +1,107 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #1C387E;
+}
+
+.nav-custom {
+    background-color: #6D7086;
+}
+
+.title-background {
+    /*background-image: ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    */
+    height: 100vh;
+    position: relative;
+}
+
+.title-lead {
+    padding-top: 20%;
+}
+.title-overlay {
+    background-color: ;
+    width: 100%;
+    height: 100%;
+    opacity:0.5;
+    position: absolute;
+}
+.title-name{
+    font-size: 80px;
+    text-align: center;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.title-message {
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.about {
+    color: #ffffff;
+}
+
+.about-title {
+    color: #ffffff;
+    padding-top: 120px;
+    padding-bottom:100px;
+}
+
+.projects-title {
+    color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+hr{
+    border-color: #ffffff;
+    width: 20%;
+}
+
+.projects {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 3px 4px #D1D1D1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact-box {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    background-color: #6D7086;
+    color: #ffffff;
+    width: 100%;
+}
+#git-link {
+    color: #ffffff
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    outline: none;
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    border-color: #000000;
+    border-width: 0px;;
+  }
+  
+  #myBtn:hover {
+    box-shadow: 3px 4px #0A0A0A;
+  }
